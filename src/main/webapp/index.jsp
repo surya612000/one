@@ -888,8 +888,8 @@
                 <span class="product-badge">New</span>
                 <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Smartphone" class="product-img">
                 <div class="product-info">
-                    <h3>iPhone 15 pro Max</h3>
-                    <div class="price">$1599 <span class="old-price">$1,199</span></div>
+                    <h3>iPhone 15 pro wax</h3>
+                    <div class="price">$200000 <span class="old-price">$1,199</span></div>
                     <div class="rating">★★★★★ <span>(128)</span></div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
