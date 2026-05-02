@@ -1063,7 +1063,7 @@
             <p>Subscribe to our newsletter and get 10% off your first order plus exclusive access to sales and new arrivals.</p>
             <form class="newsletter-form">
                 <input type="email" placeholder="Enter your email address" required>
-                <button type="submit">Subscribe</button>
+                <button type="submit">Sube</button>
             </form>
         </div>
     </section>
