@@ -983,7 +983,7 @@
                         </div>
                         <div class="timer-box">
                             <span id="minutes">59</span>
-                            <span>Minnnnnnnnnnnnn</span>
+                            <span>Minnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</span>
                         </div>
                         <div class="timer-box">
                             <span id="seconds">59</span>
