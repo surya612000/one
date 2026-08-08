@@ -1,4 +1,4 @@
-def call (String image_name) {
+def call () {
     echo "Build Docker image..."
-    sh 'docker build -t $image_name:latest .'
+    sh 'docker build -t shaikmustafa/shared-jenkins:tag .'
 }
