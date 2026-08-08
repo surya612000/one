@@ -2,17 +2,17 @@
 pipeline {
     agent any
     stages {
-        stage ("Checkout Code") {
+        stage ("CheckoutCode") {
             steps {
                 checkoutCode()
             }
         }
-        stage ("Maven Build") {
+        stage ("MavenBuild") {
             steps {
                 mavenBuild()
             }
         }
-        stage ("Docker Build") {
+        stage ("DockerBuild") {
             steps {
                 script {
                     def image_name = "shaikmustafa/shared-jenkins"
@@ -21,7 +21,7 @@ pipeline {
                 }
             }
         }
-        stage ("Docker Push") {
+        stage ("DockerPush") {
             steps {
                 script {
                     def image_name = "shaikmustafa/shared-jenkins"
