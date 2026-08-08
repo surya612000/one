@@ -17,7 +17,7 @@ pipeline {
         }
         stage ("DockerBuild") {
             steps {
-                dockerBuild()
+                dockerBuild('shaikmustafa/jenkins-shared', 'myapp')
             }
         }
         stage ("DockerPush") {
