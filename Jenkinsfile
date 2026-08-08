@@ -17,11 +17,7 @@ pipeline {
         }
         stage ("DockerBuild") {
             steps {
-                script {
-                    def image_name = "shaikmustafa/shared-jenkins"
-                    def tag = "${env.BUILD_NUMBER}"
-                    dockerBuild(image_name, tag)
-                }
+                dockerBuild("shaikmustafa/shared-jenkins", "${BUILD_NUMBER}")
             }
         }
         stage ("DockerPush") {
