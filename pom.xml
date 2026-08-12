@@ -37,7 +37,7 @@
     <repositories>
         <repository>
             <id>mydevops-feed</id>
-            <url>https://pkgs.dev.azure.com/shaikmustafa8991/myproject/_packaging/mydevops-feed/maven/v1</url>
+            <url>https://pkgs.dev.azure.com/afsanabegummd00/MyFirstProject/_packaging/myfeed/maven/v1</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
