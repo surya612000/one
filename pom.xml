@@ -35,22 +35,22 @@
     </dependencies>
 
     <repositories>
-        <repository>
-                  <id>myfeednew</id>
-                    <url>https://pkgs.dev.azure.com/afsanabegummd00/MyFirstProject/_packaging/myfeednew/maven/v1</url>
+             <repository>
+                    <id>flm-feed</id>
+                    <url>https://pkgs.dev.azure.com/afsanabegummd00/MyFirstProject/_packaging/flm-feed/maven/v1</url>
                     <releases>
-                           <enabled>true</enabled>
-                    </releases>
-                    <snapshots>
-                           <enabled>true</enabled>
-                    </snapshots>
-         </repository>
+                      <enabled>true</enabled>
+                      </releases>
+                      <snapshots>
+                               <enabled>true</enabled>
+                      </snapshots>
+              </repository>
     </repositories>
 
     <distributionManagement>
-             <repository>
-  <id>myfeednew</id>
-  <url>https://pkgs.dev.azure.com/afsanabegummd00/MyFirstProject/_packaging/myfeednew/maven/v1</url>
+            <repository>
+  <id>flm-feed</id>
+  <url>https://pkgs.dev.azure.com/afsanabegummd00/MyFirstProject/_packaging/flm-feed/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
