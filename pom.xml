@@ -48,6 +48,16 @@
     </repositories>
 
     <distributionManagement>
+             <repository>
+  <id>myfeednew</id>
+  <url>https://pkgs.dev.azure.com/afsanabegummd00/MyFirstProject/_packaging/myfeednew/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
         <snapshotRepository>
             <id>nexusRepo</id>
             <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
